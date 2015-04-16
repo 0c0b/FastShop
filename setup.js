@@ -10,7 +10,7 @@ var dbPath = __dirname + '/fastshop.db';
 
 // run bower to install
 var spawn = require('child_process').spawn;
-spawn(path.join(__dirname, 'node_modules', '.bin', 'bower'), ['install'], { stdio : 'inherit' });
+//spawn(path.join(__dirname, 'node_modules', '.bin', 'bower'), ['install'], { stdio : 'inherit' });
 
 // patch jimp to make crop faster
 (function(jimpPath){
